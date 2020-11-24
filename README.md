@@ -38,10 +38,11 @@
 
 This project aims create an app which provide filter restaurants according to cities and shown on Google Maps and interact with them. The app comprises use of Maps and Modal.
 
-- When the user lands the Home page he/she can see a group of movie cards pulled from the database in advance.
-- User can search for movies by entering the search string values. Then can either press the button or press enter to bring the relevant movie cards to screen.
-- Each movie card contains two buttons: one for directing to detailed information page and the other for adding the movie to favorites.
-- User can view the favorite movies and delete any of them. User can view any time the favorite movies he/she enters the website (stored in local history). 
+- When the user lands the Home page he/she can see MapView and scrollable list of cities in advance.
+- User can roam on map and display details.
+- When the user tap on a city name, it is displayed restaurants of relevant city on map with red marker.
+- User can tap on marker and display details of restaurant with modal. 
+- There is a SearchBar for cities at the top of the page.
 
 ## How To Use
 
