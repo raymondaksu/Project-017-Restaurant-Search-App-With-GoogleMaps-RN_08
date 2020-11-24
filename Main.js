@@ -1,6 +1,6 @@
 import Axios from 'axios';
 import React, {useEffect, useState, useRef} from 'react';
-import {SafeAreaView, View, Text, FlatList, Modal} from 'react-native';
+import {SafeAreaView, View, FlatList} from 'react-native';
 import MapView, {Marker} from 'react-native-maps';
 import {City, RestaurantDetail, SearchBar} from './components';
 
